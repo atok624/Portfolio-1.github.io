@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f7f7f9;
 }
 
 * {
@@ -15,7 +16,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 23px 30px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header_name {
@@ -36,11 +43,14 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px 30px 50px 30px;
+  padding: 90px 30px 50px 30px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  background-color: #fff;
+  border-bottom-left-radius: 5rem;
+  margin-top: 70px;
 }
 
 .title_1 {

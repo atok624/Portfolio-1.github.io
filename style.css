@@ -115,7 +115,7 @@ header {
 
 .tonic {
   font-style: normal;
-  padding: 20px 0;
+  padding: 10px 0;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -159,6 +159,25 @@ header {
   letter-spacing: 0.03em;
   width: max-content;
   padding: 12px;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.button:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
+.button:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
 }
 
 .language {
@@ -213,16 +232,16 @@ header {
 
 .languages_1 {
   border-bottom: 1px solid #dfe1e6;
-  padding: 30px 30px;
+  padding: 10px 0;
+  margin: 0 20px;
 }
 
 .lang_list {
-  padding: 10px 0;
   display: flex;
   align-items: center;
   background: #f7f7f9;
-  border-radius: 8px;
-  margin: 15px 50px;
+  border-radius: 18px;
+  margin: 15px 26px;
 }
 
 .List_1 {
@@ -241,9 +260,12 @@ header {
 .lang_list img {
   width: 48px;
   height: 48px;
-  border: 1px solid #fff;
 }
 
 .Lang {
   background: #fff;
+}
+
+.Language_list {
+  font-size: 20px;
 }

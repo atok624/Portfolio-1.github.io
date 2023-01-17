@@ -181,7 +181,7 @@ header {
 }
 
 .language {
-  display: flex;
+  float: right;
   gap: 20px 10px;
 }
 

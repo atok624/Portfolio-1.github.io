@@ -326,7 +326,6 @@ header {
   color: #172b4d;
   padding: 20px;
   box-sizing: border-box;
-  margin-bottom: 20px;
 }
 
 .contact-form-message {
@@ -341,4 +340,5 @@ header {
   line-height: 24px;
   color: #b3bac5;
   padding: 15px 0 0 16px;
+  margin-top: 20px;
 }

@@ -31,7 +31,7 @@
 
 # 📖 Portfolio-1<a name="about-project"></a>
 
-**Portfolio-1** is a program made with Html and Css. It is just displays the main content of a mobile view website
+**Portfolio-1** is a program made with Html and Css. It is just displays the desktop version of a website.
 
 ## 🛠 Built With <a name="built-with"></a>
 

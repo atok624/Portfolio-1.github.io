@@ -170,8 +170,6 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, please give it a star on the main page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

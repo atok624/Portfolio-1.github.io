@@ -31,7 +31,7 @@
 
 # 📖 Portfolio-1<a name="about-project"></a>
 
-**Portfolio-1** is a program made with Html and Css. It is just displays the main content of a mobile view website
+**Portfolio-1** is a program made with Html and Css. It is just displays the desktop version of a website
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,8 +42,6 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **Navigation**
 - **Headline**
@@ -61,8 +59,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -142,7 +138,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 ## 👤Nicholas Kwamena Amissah <a name="authors"></a>
 
@@ -156,11 +151,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+-  [ ]  Animations & traansitions
+-  [ ] Carousel for more projects
+-  [ ] Parallax scroll on the user profile
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,9 +170,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, please give it a star on the main page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,9 +178,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank the following :
+- [ ] Microverse
+- [ ] My coding partner Lorna Kaboro
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

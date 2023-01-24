@@ -36,8 +36,7 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
--HTML
--CSS
+-HTML -CSS
 
 <!-- Features -->
 
@@ -46,13 +45,14 @@
 - **Navigation**
 - **Headline**
 - **Contact-form**
+- **Desktop Version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-  No Live Demo
+Visit: https://atok624.github.io/Portfolio-1.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,6 +61,7 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
 
@@ -136,7 +137,7 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 
 ## 👤Nicholas Kwamena Amissah <a name="authors"></a>
@@ -151,7 +152,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  [ ]  Animations & traansitions
+-  [ ]  Animations & transitions
 -  [ ] Carousel for more projects
 -  [ ] Parallax scroll on the user profile
 
@@ -181,6 +182,7 @@ If you like this project, please give it a star on the main page
 I would like to thank the following :
 - [ ] Microverse
 - [ ] My coding partner Lorna Kaboro
+- [ ] Queenter Juma
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

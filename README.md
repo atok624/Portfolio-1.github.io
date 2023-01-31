@@ -36,7 +36,9 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
--HTML -CSS
+- HTML 
+- CSS
+- JAVASCRIPT
 
 <!-- Features -->
 
@@ -46,6 +48,7 @@
 - **Headline**
 - **Contact-form**
 - **Desktop Version**
+- **Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,6 +158,7 @@ Example:
 -  [ ]  Animations & transitions
 -  [ ] Carousel for more projects
 -  [ ] Parallax scroll on the user profile
+-  [ ] Details Pop up window
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

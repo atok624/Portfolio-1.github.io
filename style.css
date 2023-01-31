@@ -258,7 +258,7 @@ header {
   padding: 30px 30px;
 }
 
-.Desk_nav {
+.Desk_nav-sidebar {
   position: fixed;
   left: -100%;
   flex-direction: column;
@@ -284,7 +284,11 @@ header {
   color: white;
 }
 
-.Desk_nav.active {
+.Desk_nav {
+  display: none;
+}
+
+.Desk_nav-sidebar.active {
   left: 0;
 }
 
@@ -412,11 +416,14 @@ header {
     overflow-x: hidden;
   }
 
-  .desk_nav {
-    left: 30px;
-    top: 70px;
+  .Desk_nav {
+    /* left: 30px;
+    top: 70px; */
     display: flex;
     margin-right: 100px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .display {

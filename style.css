@@ -16,6 +16,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f7f7f9;
+    scroll-behavior: smooth;
 }
 
 .bar {
@@ -258,34 +259,45 @@ header {
     padding: 30px 30px;
 }
 
-.Desk_nav_sidebar {
+.Desk_nav.active {
     position: fixed;
-    left: -100%;
+    left: 0;
+    top: 0;
     flex-direction: column;
-    background: #6070ff;
-    mix-blend-mode: multiply;
     width: 100%;
     height: 100vh;
     text-align: center;
     transition: 0.3s;
     padding: 30px 0 0 30px;
+    display: block;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: rgb(30 48 207 / 74%);
 }
 
-/* .Desk_list {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  margin: 20px 0 0 0;
+.Desk_nav.active .Desk_list {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.Desk_nav.active .Desk_list a {
+    color: #fff;
 }
 
 .Desk_list a {
-  color: white;
-} */
+    color: #344563;
+}
 
 .Desk_nav_sidebar.active {
     left: 0;
+}
+
+.Desk_nav {
+    display: none;
 }
 
 .lang_img {
@@ -406,15 +418,13 @@ header {
     margin-top: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     body {
         width: auto;
         overflow-x: hidden;
     }
 
-    .desk_nav {
-        /* left: 30px;
-        top: 70px; */
+    .Desk_nav {
         display: flex;
         margin-right: 100px;
     }

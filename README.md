@@ -151,6 +151,7 @@ Example:
 -   [ ] Carousel for more projects
 -   [ ] Parallax scroll on the user profile
 -   [ ] Details Pop up window
+-   [ ] Contact form validation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,6 +180,7 @@ I would like to thank the following :
 -   [ ] Microverse
 -   [ ] My coding partner Lorna Kaboro
 -   [ ] Queenter Juma
+-   [ ] Stephen Adom Addae
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

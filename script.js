@@ -1,4 +1,3 @@
-/* eslint-disable no-tabs */
 const humburger = document.querySelector('.humburger');
 const deskNav = document.querySelector('.Desk_nav');
 

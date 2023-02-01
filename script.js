@@ -1,66 +1,66 @@
 /* eslint-disable no-tabs */
-const humburger = document.querySelector(".humburger");
-const deskNav = document.querySelector(".Desk_nav");
+const humburger = document.querySelector('.humburger');
+const deskNav = document.querySelector('.Desk_nav');
 
-const projectListContainer = document.querySelector("#work");
-const popupContainer = document.querySelector(".modal-wrapper");
+const projectListContainer = document.querySelector('#work');
+const popupContainer = document.querySelector('.modal-wrapper');
 
 const projectLists = [
   {
-    title: "Tonic",
-    subtitle: "Canopy",
+    title: 'Tonic',
+    subtitle: 'Canopy',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    projectType: "Back End Dev",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    projectType: 'Back End Dev',
     date: 2015,
-    image: "Snapshoot_Portfolio_(4).png",
-    technologies: ["html", "css", "javascript"],
-    liveVersion: "https://atok624.github.io/Portfolio-1.github.io",
-    sourceLink: "https://github.com/atok624/Portfolio-1.github.io",
+    image: 'Snapshoot_Portfolio_(4).png',
+    technologies: ['html', 'css', 'javascript'],
+    liveVersion: 'https://atok624.github.io/Portfolio-1.github.io',
+    sourceLink: 'https://github.com/atok624/Portfolio-1.github.io',
   },
   {
-    title: "Multi-Post Stories",
-    subtitle: "Facebook",
+    title: 'Multi-Post Stories',
+    subtitle: 'Facebook',
     description:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    projectType: "Full Stack Dev",
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    projectType: 'Full Stack Dev',
     date: 2015,
-    image: "Snapshoot_Portfolio_(3).png",
-    technologies: ["html", "Ruby on Rails", "css", "javascript"],
-    liveVersion: "https://atok624.github.io/Portfolio-1.github.io",
-    sourceLink: "https://github.com/atok624/Portfolio-1.github.io",
+    image: 'Snapshoot_Portfolio_(3).png',
+    technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
+    liveVersion: 'https://atok624.github.io/Portfolio-1.github.io',
+    sourceLink: 'https://github.com/atok624/Portfolio-1.github.io',
   },
   {
-    title: "Facebook 360",
-    subtitle: "Facebook",
+    title: 'Facebook 360',
+    subtitle: 'Facebook',
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    projectType: "Full Stack Dev",
+    projectType: 'Full Stack Dev',
     date: 2015,
-    image: "Snapshoot_Portfolio_(2).png",
-    technologies: ["html", "Ruby on Rails", "css", "javascript"],
-    liveVersion: "https://atok624.github.io/Portfolio-1.github.io",
-    sourceLink: "https://github.com/atok624/Portfolio-1.github.io",
+    image: 'Snapshoot_Portfolio_(2).png',
+    technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
+    liveVersion: 'https://atok624.github.io/Portfolio-1.github.io',
+    sourceLink: 'https://github.com/atok624/Portfolio-1.github.io',
   },
   {
-    title: "Uber Navigation",
-    subtitle: "Uber",
+    title: 'Uber Navigation',
+    subtitle: 'Uber',
     description:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    projectType: "Lead Developer",
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    projectType: 'Lead Developer',
     date: 2018,
-    image: "Snapshoot_Portfolio_(1).png",
-    technologies: ["html", "Ruby on Rails", "css", "javascript"],
-    liveVersion: "https://atok624.github.io/Portfolio-1.github.io",
-    sourceLink: "https://github.com/atok624/Portfolio-1.github.io",
+    image: 'Snapshoot_Portfolio_(1).png',
+    technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
+    liveVersion: 'https://atok624.github.io/Portfolio-1.github.io',
+    sourceLink: 'https://github.com/atok624/Portfolio-1.github.io',
   },
 ];
 
 function listAllProject() {
-  let projectListString = "";
+  let projectListString = '';
 
   projectLists.forEach((project, index) => {
-    let languageHtml = "";
+    let languageHtml = '';
 
     if (project.technologies.length) {
       project.technologies.forEach((tech) => {
@@ -97,7 +97,7 @@ function listAllProject() {
 }
 
 function displayProjectInfoOnPopupWindow(project) {
-  let technologiesHtml = "";
+  let technologiesHtml = '';
   if (project.technologies.length) {
     project.technologies.forEach((technology) => {
       technologiesHtml += `<li class="tag">${technology}</li>`;
@@ -156,21 +156,21 @@ function displayProjectInfoOnPopupWindow(project) {
 </div>
   `;
 
-  popupContainer.classList.remove("close");
-  document.body.classList.add("hidescrollbar");
+  popupContainer.classList.remove('close');
+  document.body.classList.add('hidescrollbar');
 
-  popupContainer.addEventListener("click", (e) => {
-    if (e.target.parentElement.classList.contains("modal-close-btn")) {
-      popupContainer.classList.add("close");
-      popupContainer.innerHTML = "";
-      document.body.classList.remove("hidescrollbar");
+  popupContainer.addEventListener('click', (e) => {
+    if (e.target.parentElement.classList.contains('modal-close-btn')) {
+      popupContainer.classList.add('close');
+      popupContainer.innerHTML = '';
+      document.body.classList.remove('hidescrollbar');
     }
   });
 }
 
-projectListContainer.addEventListener("click", (e) => {
-  if (e.target.tagName === "BUTTON") {
-    const index = e.target.getAttribute("id");
+projectListContainer.addEventListener('click', (e) => {
+  if (e.target.tagName === 'BUTTON') {
+    const index = e.target.getAttribute('id');
     const project = projectLists[Number(index)];
 
     displayProjectInfoOnPopupWindow(project);
@@ -179,14 +179,12 @@ projectListContainer.addEventListener("click", (e) => {
 
 listAllProject();
 
-humburger.addEventListener("click", () => {
-  humburger.classList.toggle("active");
-  deskNav.classList.toggle("active");
+humburger.addEventListener('click', () => {
+  humburger.classList.toggle('active');
+  deskNav.classList.toggle('active');
 });
 
-document.querySelectorAll(".Desk_list").forEach((n) =>
-  n.addEventListener("click", () => {
-    humburger.classList.remove("active");
-    deskNav.classList.remove("active");
-  })
-);
+document.querySelectorAll('.Desk_list').forEach((n) => n.addEventListener('click', () => {
+  humburger.classList.remove('active');
+  deskNav.classList.remove('active');
+}));

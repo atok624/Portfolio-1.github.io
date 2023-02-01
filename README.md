@@ -8,24 +8,24 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+-   [📖 About the Project](#about-project)
+    -   [🛠 Built With](#built-with)
+        -   [Tech Stack](#tech-stack)
+        -   [Key Features](#key-features)
+    -   [🚀 Live Demo](#live-demo)
+-   [💻 Getting Started](#getting-started)
+    -   [Setup](#setup)
+    -   [Prerequisites](#prerequisites)
+    -   [Install](#install)
+    -   [Usage](#usage)
+    -   [Run tests](#run-tests)
+    -   [Deployment](#triangular_flag_on_post-deployment)
+-   [👥 Authors](#authors)
+-   [🔭 Future Features](#future-features)
+-   [🤝 Contributing](#contributing)
+-   [⭐️ Show your support](#support)
+-   [🙏 Acknowledgements](#acknowledgements)
+-   [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -36,25 +36,27 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-- HTML 
-- CSS
-- JAVASCRIPT
+
+-   HTML
+-   CSS
+-   JAVASCRIPT
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Navigation**
-- **Headline**
-- **Contact-form**
-- **Desktop Version**
-- **Mobile Menu**
+-   **Navigation**
+-   **Headline**
+-   **Contact-form**
+-   **Desktop Version**
+-   **Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
 Visit: https://atok624.github.io/Portfolio-1.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -65,18 +67,9 @@ Visit: https://atok624.github.io/Portfolio-1.github.io/
 
 To get a local copy up and running, follow these steps.
 
-
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -142,12 +135,11 @@ Example:
 
 ## 👥 Author <a name="authors"></a>
 
-
 ## 👤Nicholas Kwamena Amissah <a name="authors"></a>
 
-- GitHub: [Nicholas Amissah](https://github.com/atok624)
-- Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
-- LinkedIn: [Nicholas Amissah](https://www.linkedin.com/in/nicholas-amissah-153b09154)
+-   GitHub: [Nicholas Amissah](https://github.com/atok624)
+-   Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
+-   LinkedIn: [Nicholas Amissah](https://www.linkedin.com/in/nicholas-amissah-153b09154)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,12 +147,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  [ ]  Animations & transitions
--  [ ] Carousel for more projects
--  [ ] Parallax scroll on the user profile
--  [ ] Details Pop up window
--  [ ] Contact form validation
-
+-   [ ] Animations & transitions
+-   [ ] Carousel for more projects
+-   [ ] Parallax scroll on the user profile
+-   [ ] Details Pop up window
+-   [ ] Contact form validation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +160,6 @@ Example:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,13 +176,13 @@ If you like this project, please give it a star on the main page
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the following :
-- [ ] Microverse
-- [ ] My coding partner Lorna Kaboro
-- [ ] Queenter Juma
-- [ ] Stephen Adom Addae
+
+-   [ ] Microverse
+-   [ ] My coding partner Lorna Kaboro
+-   [ ] Queenter Juma
+-   [ ] Stephen Adom Addae
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 

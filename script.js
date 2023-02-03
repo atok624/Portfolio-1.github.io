@@ -209,9 +209,7 @@ form.addEventListener('input', () => {
 
   const storeData = JSON.stringify(data);
   localStorage.setItem('mydata', storeData);
-});
-
-
+);gi
 
 // this line of code is to avoid Meanless ESLint Errors
 const avoidErrors = formValidation();

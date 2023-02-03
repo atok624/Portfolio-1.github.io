@@ -450,7 +450,7 @@ header {
   box-sizing: border-box;
 }
 
-.contact-form-message {
+.contact_form_message {
   width: 100%;
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -829,7 +829,7 @@ header {
     margin-bottom: 30px;
   }
 
-  .contact-form-message,
+  .contact_form_message,
   #contact_form_email,
   #input {
     width: 440px;

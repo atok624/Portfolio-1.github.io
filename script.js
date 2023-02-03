@@ -211,7 +211,12 @@ form.addEventListener('input', () => {
   localStorage.setItem('mydata', storeData);
 });
 
-
+const getData = JSON.parse(localStorage.getItem('mydata'));
+if (getData) {
+  document.getElementById('input').value = getData.name;
+  document.getElementById('contact_form_email').value = getData.email;
+  document.querySelector('.contact_form_message').value = getData.text;
+}
 
 // this line of code is to avoid Meanless ESLint Errors
 const avoidErrors = formValidation();

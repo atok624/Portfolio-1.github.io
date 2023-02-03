@@ -187,3 +187,18 @@ document.querySelectorAll('.Desk_list').forEach((n) => n.addEventListener('click
   humburger.classList.remove('active');
   deskNav.classList.remove('active');
 }));
+
+// this function will test the email and see if it is in lowercase, if it is it'll show an error
+function formValidation() {
+  const error = document.querySelector('#error');
+  const email = document.querySelector('#contact_form_email');
+  if (email.value === email.value.toLowerCase()) {
+    return true;
+  }
+  error.innerHTML = `!!! Email must be in lowercase!!!<br>Try this : ${email.value.toLowerCase()}`;
+  return false;
+}
+
+// this line of code is to avoid Meanless ESLint Errors
+const avoidErrors = formValidation();
+console(avoidErrors);

@@ -1,6 +1,5 @@
 const humburger = document.querySelector('.humburger');
 const deskNav = document.querySelector('.Desk_nav');
-
 const projectListContainer = document.querySelector('#work');
 const popupContainer = document.querySelector('.modal-wrapper');
 
@@ -197,6 +196,26 @@ function formValidation() {
   }
   error.innerHTML = `!!! Email must be in lowercase!!!<br>Try this : ${email.value.toLowerCase()}`;
   return false;
+}
+
+// Local stoarge
+const form = document.querySelector('.contact_form_content');
+form.addEventListener('input', () => {
+  const data = {
+    name: document.querySelector('#input').value,
+    email: document.querySelector('#contact_form_email').value,
+    text: document.querySelector('.contact_form_message').value,
+  };
+
+  const storeData = JSON.stringify(data);
+  localStorage.setItem('mydata', storeData);
+});
+
+const getData = JSON.parse(localStorage.getItem('mydata'));
+if (getData) {
+  document.getElementById('input').value = getData.name;
+  document.getElementById('contact_form_email').value = getData.email;
+  document.querySelector('.contact_form_message').value = getData.text;
 }
 
 // this line of code is to avoid Meanless ESLint Errors
